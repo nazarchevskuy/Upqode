@@ -1,0 +1,170 @@
+@media screen and (max-width:1441px) {
+    .map_info_box {
+        width: 300px;
+        right: -45px;
+        padding: 25px 30px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .map_info_box {
+        width: 300px;
+        right: 0;
+        padding: 25px 20px;
+    }
+}
+
+@media screen and (max-width:1201px) {
+    .gsap_container {
+        display: none;
+    }
+
+    #cities {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    header {
+        background: #222222;
+    }
+
+    // burger menu
+    .header_menu {
+        display: none;
+    }
+
+    .burger_btn {
+        display: flex;
+    }
+
+    .home_contact_container {
+        flex-direction: column;
+    }
+
+    .contact_info {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .contact_map {
+        width: 100%;
+    }
+
+    .home_banner_slider_item_content h1 {
+        font-size: 60px;
+    }
+
+    * {
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .text_align_center_1024 {
+        text-align: center;
+    }
+
+    .contact_info .title {
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .services_item_container {
+        padding-bottom: 100px;
+    }
+
+    .home_contact {
+        padding-top: 0;
+    }
+
+    .home_contact {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .services_item_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_item_container_2 {
+        flex-direction: column-reverse;
+    }
+
+    .item_image {
+        width: 90%;
+    }
+
+    .item_content {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .item_content .service::after {
+        left: 0;
+        ;
+    }
+
+    .contact_map {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .map_info_box {
+            position: static;
+            transform: none;
+            -webkit-transform: none;
+            -moz-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+
+    .map_info_box {
+        text-align: center;
+
+        .work_schedule,
+        .title,
+        .phone {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    .home_banner_slider_item_content h1 {
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .footer_menu li {
+        display: list-item;
+        margin: 10px 0;
+    }
+
+    .caption {
+        top: 45%;
+    }
+
+    .home_services {
+        padding-top: 50px;
+    }
+
+    .item_content {
+        padding-top: 50px;
+    }
+
+    .services_item_container {
+        padding-bottom: 50px;
+    }
+
+    .home_contact {
+        padding-bottom: 50px;
+    }
+}
